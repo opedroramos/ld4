@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+body{
+    background-color: #ffffff;
+}
+.smartplayer-call-action.callaction_63fa5e578f7f51000bab3cc2_0 a.smartplayer-call-action--link{
+    font-family: "M";
+}
+#container{
+    max-width: 940px;
+    margin: 0px auto;
+}
+#confpai{
+    margin: 40px auto;
+}
+#conf{
+    display: block;
+    margin: 0px auto;
+    max-width: 70%;
+}
+#h3pai{
+    padding: 40px;
+}
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "M";
+}
+h3.cor{
+    text-align: center;
+    color: #C4170C;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "M";
+}
+mark.corr{
+    color: #C4170C;
+    background-color: #ffffff00;
+}
+#rodape1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin-top: 100px;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #666666;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 14px;
+    font-family: "M";
+    color: #666666;
+    font-weight: initial;
+    margin-right: 10px;
+    text-decoration: none;
+}
+#privacidade{
+    font-size: 14px;
+    font-family: "M";
+    color: #666666;
+    font-weight: initial;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    max-width: 940px;
+    color: #666666;
+}
+p.barra{
+    font-size: 14px;
+    font-weight: initial;
+    font-family: "M";
+    color: #666666;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: #666666;
+}
+@media only screen and (max-width: 768px) {
+    #container{
+        max-width: 940px;
+        margin: 0px auto;
+    }
+    #confpai{
+        margin: 20px auto;
+    }
+    #conf{
+        display: block;
+        margin: 0px auto;
+        max-width: 80%;
+    }
+    #h3pai{
+        padding: 13.3px;
+    }
+    h3{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 16px;
+        font-family: "M";    
+    }
+    h3.cor{
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: "M";
+        margin-top: 16px;
+    }
+    mark.corr{
+        color: #C4170C;
+        background-color: #ffffff00;
+    }
+    #rodape1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #F5F5F5;
+        margin-top: 100px;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 12px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        color: #666666;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 12px;
+        font-family: "M";
+        color: #666666;
+        font-weight: initial;
+        margin-right: 6.6px;
+        text-decoration: none;
+    }
+    #privacidade{
+        font-size: 12px;
+        font-family: "M";
+        color: #666666;
+        font-weight: initial;
+        margin-left: 6.6px;
+        text-decoration: none;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F5;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+        max-width: 940px;
+        color: #666666;
+    }
+    p.barra{
+        font-size: 12px;
+        font-weight: initial;
+        font-family: "M";
+        color: #666666;
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: #666666;
+    }
+}/*divisao por 1,5 */

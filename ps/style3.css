@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+#container{
+}
+#bloco{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 60px;
+    margin: 0px auto;
+    text-align: center;
+}
+#imgjoia{
+    display: flex;
+    justify-content: center;
+}
+#joia{
+    width: 170.6px;
+    margin-bottom: 40px;
+}
+.tudo{
+    font-family: "M";
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.cliq{
+    font-family: "M";
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+#botaopp{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+.botao{
+    background: linear-gradient(to top,#009900, #00DD00) ;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin: 30px auto;
+    animation: pulsee 1s infinite;
+    animation-name: pulsee;
+    cursor: pointer;
+    border: 4px solid #009900;
+}
+@keyframes pulsee {
+    50% {
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1.00);
+    }
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+    margin-top: 100px;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+    max-width: 940px;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #container{
+    }
+    #bloco{
+        display: flex;
+        background-color: #ffffff;
+        flex-direction: column;
+        padding: 40px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #imgjoia{
+        display: flex;
+        justify-content: center;
+    }
+    #joia{
+        width: 102.4px;
+        margin-bottom: 20px;
+    }
+    .tudo{
+        font-family: "M";
+        font-size: 40px;
+        margin-bottom: 13.3px;
+        color: #000000;
+    }
+    .cliq{
+        font-family: "M";
+        font-size: 20px;
+        margin-bottom: 13.3px;
+        color: #000000;
+    }
+    #botaopp{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .botao{
+        background: linear-gradient(to top,#009900, #00DD00) ;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 13.3px;
+        font-size: 30px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin: 20px auto;
+        width: 80%;
+        animation: pulsee 1s infinite;
+        animation-name: pulsee;
+        border: 4px solid #009900;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+        margin-top: 100px;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+        max-width: 940px;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+}
